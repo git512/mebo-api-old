@@ -40,7 +40,7 @@ URLs can append "*&ts={1}*" where timestamp is in "HHmmss" format.
 **Wireless Settings**
 |Setting|URL|Parameter/Return|
 |--|--|--|
-|Set Router SSID|?req=setup_wireless_save&auth={0}&ssid={1}&key={2}|{Unknown,Open,None,Wep,Wpa,Wpa2},SSID,Password)|
+|Set Router SSID|?req=setup_wireless_save&auth={0}&ssid={1}&key={2}&index={3}|{Unknown,Open,None,Wep,Wpa,Wpa2},SSID,Password,Idx (0-2) to store in|
 |Set WIFI PSK|?req=set_wifi_wpa_psk&value={0}|Escaped HTML password|
 |Router Scan|?req=get_rt_list|XML Formatted list of Routers|
 |Get Wifi Security|?req=get_wifi_cert|Wifi Security Type|
